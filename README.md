@@ -2,13 +2,16 @@
 
 runge-kutta 4 stage approximation implementation
 uses factor ui.gadgets.charts library for in listener display and raylib.ffi for 3d visualisation
-still buggy and unreadable and needs extending to n dimensions
 
-![gadget-differential](./img/gadget-lorenz-duffing.png)
+TODO:
+- complicated composition reduction of the 4 equations should be done once at start instead of recursively
+- replace some stack shuffling with lexical scoping
 
-![3d-duffing](./img/3d-duffing.png)
+![gadget-differential](./img/gadget-lorenz-rabinovich-fabrikant.png)
 
-![3d-duffing-2](./img/3d-duffing-2.png)
+![3d-duffing](./img/3d-rabinovich-fabrikant.png)
+
+![3d-duffing-2](./img/3d-rabinovich-fabrikant-2.png)
 
 ![3d-lorenz](./img/3d-lorenz.png)
 
